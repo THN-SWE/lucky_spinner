@@ -1,0 +1,56 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+#wheel{
+    
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#stand{
+    
+    
+    margin: auto;
+    position: absolute;
+    top: 200px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    
+}
+#pointer{
+    margin: auto;
+    position: absolute;
+    top: -150px;
+    transform: rotate(180deg);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+#spin{
+    margin: auto;
+   
+    top: 0px;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    opacity: 0;
+    /* top: 50vh; */
+    /* left: 45%; */
+   
+}
